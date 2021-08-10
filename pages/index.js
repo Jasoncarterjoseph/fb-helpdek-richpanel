@@ -49,7 +49,11 @@ const FBSampleData = [
       message: "Hey there is it available.",
     },
     profile: "https://material-ui.com/static/images/avatar/3.jpg",
-    chats: [["new message"], ["replay 1", "replay 2"], ["another message"]],
+    chats: [
+      ["new message"],
+      ["user answer", "second answer"],
+      ["another message"],
+    ],
   },
 ];
 
