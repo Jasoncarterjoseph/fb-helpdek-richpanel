@@ -1,6 +1,6 @@
 ## Getting Started
 
-To run the development server:
+### Run the development server:
 
 ```bash
 Clone this repo
