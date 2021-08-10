@@ -1,0 +1,38 @@
+.item {
+  padding: 10px;
+  border-bottom: 1px solid #f0f5f8;
+  cursor: pointer;
+
+  .head {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+    .check {
+      flex: 1;
+    }
+    .title {
+      display: flex;
+      flex-direction: column;
+      flex: 8;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .time {
+      flex: 1;
+      font-size: 10px;
+    }
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+
+    .heading {
+      font-size: 12px;
+      font-weight: 500;
+    }
+    .message {
+      font-size: 11px;
+    }
+  }
+}
